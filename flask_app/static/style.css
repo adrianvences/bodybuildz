@@ -1,0 +1,82 @@
+
+/* this pushed the header down so the fixed nav bar doesnt cover some content */
+body::before {
+    display: block;
+    content: '';
+    height: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* /* #home {
+    background : url('/flask_app/static/gym_example.jpg') no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width :100%;
+    background-size: cover;
+} */
+
+/* .home { */
+    /* background-image: url('/flask_app/static/gym_example.jpg'); */
+    /* background-image: url({{ url_for('static', filename='gym_example.jpg') }}); */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100vh; */
+
+/* } */ 
+
+
+@media(min-width: 768px) {
+    .news-input {
+        width:50%;
+    }
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 0);
+    border-color: white;
+}
+
+.bg-primary {
+    background-color: ;
+}
+
+#img-trainer {
+    width: 65%;
+}
+
+#beast {
+    margin-bottom: 40px;
+}
+
+.containerFlex {
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 80px;
+}
+
+.post {
+    height: 600px ;
+    margin: auto;
+}
+
+.post_container {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.video_container {
+    max-width: 600px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+video {
+    width:500px;
+}
